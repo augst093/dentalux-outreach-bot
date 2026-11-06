@@ -1,0 +1,21 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local databases
+*.db
+*.sqlite3
+
+# Editor / OS
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

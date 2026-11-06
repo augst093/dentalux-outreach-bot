@@ -1,0 +1,14 @@
+# Keep secrets, local databases and dev files out of the image
+.env
+.env.*
+*.db
+*.sqlite3
+.venv/
+venv/
+tests/
+.pytest_cache/
+__pycache__/
+.git/
+.idea/
+.vscode/
+*.log
